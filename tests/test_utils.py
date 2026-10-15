@@ -14,3 +14,11 @@ def test_add_negative():
 
 def test_add_zero():
     assert add(0, 5) == 5
+
+from utils import divide
+
+def test_divide_positive():
+    assert divide(10, 2) == 5
+
+def test_divide_negative():
+    assert divide(-10, 2) == -5
